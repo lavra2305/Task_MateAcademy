@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    margin: 0px;
+}
+.main {
+    margin: auto;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container {
+    width: 880px; 
+    margin: auto;
+    padding-top: 40px;
+}
+.title {
+    border-bottom: 1px solid lightgrey;
+}
+.title_logo {
+    float: left;
+}
+.title_logo img {
+    width: 100%;
+}
+.title_info {
+    float: right;
+}
+.title_info .inline_item {
+    margin-left: .3rem; 
+}
+.inline_item {
+    display: inline-block;
+}
+.slider_box .picture {
+    width: 90%;
+    margin-right: -10px;
+}
+.slider_box .picture1 {
+    position: absolute;
+    top: 45%;
+}
+.slider_box .picture1 .left {
+    left: 0px;
+}
+.slider_box .picture1 .right {
+    right: 0px;
+}
+.inline_item .first {
+    padding-left: 30px;
+}
+.title_item {
+    font-size: 18px;
+    font-family: 'Charis SIL', arial;
+    line-height: 17px;
+}
+.title_item.cl_1 {
+    color: #a5a5a5;
+}
+.title_main {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.title_img {
+    float: left;
+    width: 70%;
+}
+.title_img img {
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.title_context {
+    float: left;
+    width: 30%;
+    text-align: inherit;
+    padding-left: 30px;
+}
+.title_context .title_h1 {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Charis SIL', arial;
+}
+.title_context p, ul {
+    font-size: 14px;
+    font-family: 'Lucida Sans Unicode', arial;
+}
+.title_context p {
+    margin: 0px;
+}
+.title_context .list {
+    padding-inline-start: 18px;
+    list-style-type: square;
+}
+.list li {
+    padding: 5px 0px;
+}
+.title_context .button {
+    width: 120px;
+    height: 35px;
+    background-image: linear-gradient(0deg, #9bbdce 0%, #c2dae6 100%);
+    border: 1px solid #a9bfd2;
+    font-size: 15px;
+    color: rgb(98, 136, 154);
+    text-transform: uppercase;
+}
+.slider {
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.22);
+    background-color: #c9dce6;  
+}
+.slider_box {
+    padding-bottom: 30px;
+    position: relative;
+}
+.slider_box .check {
+    font-size: 15px;
+    line-height: 27px;
+    color: #6695ad;
+    font-family: "Nueva Std Cond";
+    margin: 0px;
+}
+.slider_box .check .right {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.content .content_header {
+    font-family: 'Charis SIL Italic', arial;
+    font-size: 21px;
+    line-height: 35px;
+    color: rgb(125, 160, 179);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.content {
+    background-color: #d7e7ef;
+}
+.content .content_text {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    flex-basis: 30%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.box_mg {
+    margin-right: 2.5rem;
+}
+.box_pd {
+    padding-left: 2.5rem;
+}
+.box_double {
+    flex-basis: 60%;
+    background-color: #c9dce6;
+    margin-bottom: 6rem;
+}
+.box img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box_head {
+    font-size: 17px;
+    line-height: 22px;
+    color: #456474;
+    font-family: "Charis SIL";
+    font-weight: 700;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}
+.box_text {
+    font-size: 13px;
+    line-height: 20px;
+    color: #505050;
+    font-family: "Lucida Sans";
+    margin: 0px;
+    padding-top: 15px; 
+}
+.box_h1 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #456474;
+    font-family: "Charis SIL";
+    font-weight: 700;
+    padding-left: 10px;
+}
+.box_end {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+}
+.box_end img {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+.box_end p {
+    font-size: 12px;
+    line-height: 17px;
+    color: #456474;
+    padding-left: 1.5rem;
+}
+.box_end .comment1 {
+    font-family: "DejaVu Sans";
+    font-weight: 400;
+}
+.box_end .comment1 span{
+    font-weight: bold;
+}
+.box_end .comment2 {
+    font-family: "Lucida Sans";
+    font-style: italic;
+}
+.box input {
+    line-height: 27px;
+    border: 1px solid #a9bfd2;
+}
+.box .input {
+    font-size: 11px;
+    color: #7a7a7a;
+    font-family: "Lucida Sans";
+    padding-left: .5rem;
+    padding-right: 2rem;
+}
+.box .submit {
+    font-size: 13px;
+    color: #62889a;
+    font-family: "Charis SIL";
+    font-weight: 400;
+    background-image: linear-gradient(0deg, #9bbdce 0%, #c2dae6 100%);
+    margin-left: -5px;
+}
+.relative {
+    position: relative;
+}
+.relative img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.relative p {
+    margin-left: 2rem;
+}
+.title_logo p {
+    font-size: 12px;
+    line-height: 17px;
+    color: #505050;
+    font-family: "Lucida Sans";
+    margin: 0px;
+    margin-top: -15px;
+}
+footer {
+    border-top: 1px solid #7a8086;
+}
+.slider .title_info {
+    margin-top: -15px;
+    padding-bottom: 15px;
+}
